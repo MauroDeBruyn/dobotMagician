@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="#"> 🧩 Project Title </a>
+  <a href="#"> 🧩 Dobot Magician </a>
 </h1>
 
 <p align="center">
@@ -17,7 +17,7 @@
 ![Project Banner](./resources/media/banner.png)
 
 <h4 align="center"> 
-   Status: 🚧 Work In Progress / ✅ Completed / 🧪 Prototype
+   Status: 🚧 Work In Progress <!--✅ Completed-->
 </h4>
 
 <p align="center">
@@ -35,11 +35,11 @@
 ---
 
 ## 🧭 About <a name="about"></a>
-_A short summary of your project goes here._  
-Explain **what** it does, **why** you made it, and **who** it’s for.
+This project provides documentation and examples for controlling the DOBOT Magician through the Python API using DobotStudio.
 
-> Example:  
-> A companion app designed to support a physical or digital game by tracking roles, events, and scores.
+It includes an overview of the available `dType` functions, their parameters, return values, and practical usage examples.
+
+The documentation is based on the API information available in DobotStudio and is intended to make the functions easier to understand and use in Python projects.
 
 ---
 
@@ -53,28 +53,22 @@ Explain **what** it does, **why** you made it, and **who** it’s for.
 
 ## ⚙️ Installation <a name="installation"></a>
 
-```bash
-# Clone this repository
-git clone https://github.com/MauroDeBruyn/REPO-NAME.git
+Installing DobotStudio
+1. Go to dobot-robots.com/service/download-center.
+2. Use filters on the left side of the screen to find the software (Products: Magician | Data Type: Control Software).
+3. You should find DobotStudio (DOBOT Magician) v1.9.4. Download this file.
+4. Unzip and install .exe file.
+5. You should get promped to install a drive, please install this driver. 
+6. Complete the installation.
 
-# Navigate into the project folder
-cd REPO-NAME
+> If no COM port shows up or the robotarm is not recognised please make sure the driver is installed.
+Alternative website: silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers
 
-# Install dependencies
-# Example for npm, flutter, python, etc.
-npm install
-# or
-flutter pub get
-# or
-pip install -r requirements.txt
-
-# Run the app
-npm start
-# or
-flutter run
-# or
-python app.py
-```
+---
+## Code Snippets <a name="codesnippets"></a>
+---
+## Functions <a name="functions"></a>
+All functions and its descriptions, return values and parameters can be found here insert file.
 
 ---
 
@@ -83,7 +77,3 @@ python app.py
 Thanks to everyone who has contributed to this project!
 
 - **Mauro De Bruyn** – Author / Student – [GitHub](https://github.com/MauroDeBruyn)  
-- **Contributor Name** – Student / Developer – [GitHub](https://github.com/githubusername)  
-- **Contributor Name** – Student / Tester – [GitHub](https://github.com/githubusername)  
-
-> 💡 Add more contributors as needed. Replace "Contributor Name" and GitHub links with actual collaborators.
